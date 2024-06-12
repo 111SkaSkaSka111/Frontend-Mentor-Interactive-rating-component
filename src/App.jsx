@@ -29,14 +29,14 @@ function App() {
             <div className="card">
                 {submit ? (
                     <div className="thank-you">
-                        <img src="/images/illustration-thank-you.svg" alt="" className="thank-you-img" />
+                        <img src="/Frontend-Mentor-Interactive-rating-component/images/illustration-thank-you.svg" alt="" className="thank-you-img" />
                         <p className="thank-you-text">You selected {rating} out of 5</p>
                         <h1>Thank you!</h1>
                         <p className="thank-you-text-2">We appreciate you taking the time to give a rating. If you ever need more support, don’t hesitate to get in touch!</p>
                     </div>
                 ) : (
                     <>
-                        <img src="/images/icon-star.svg" alt="" className="star" />
+                        <img src="/Frontend-Mentor-Interactive-rating-component/images/icon-star.svg" alt="" className="star" />
                         <h1>How did we do?</h1>
                         <p>Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!</p>
 
